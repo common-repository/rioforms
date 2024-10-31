@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rioforms/rioform",
+  "version": "0.1.0",
+  "title": "RioForms",
+  "category": "rioforms",
+  "icon": "forms",
+  "description": "Next-Gen WordPress Form Builder",
+  "keywords": [
+    "form",
+    "block",
+    "contact form",
+    "form block",
+    "forms",
+    "rioforms"
+  ],
+  "supports": {
+    "html": false,
+    "customClassName": false,
+    "reusable": false,
+    "lock": false
+  },
+  "textdomain": "rioforms",
+  "editorScript": [
+    "rio-form-editor-script-other"
+  ]
+}

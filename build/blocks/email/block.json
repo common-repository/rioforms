@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rioforms/email",
+  "version": "0.1.0",
+  "title": "Email",
+  "parent": [
+    "rioforms/container"
+  ],
+  "category": "rio_fields",
+  "description": "Form email field",
+  "supports": {
+    "html": false,
+    "customClassName": false
+  },
+  "textdomain": "rioforms",
+  "script": [
+    "rio-element-editor-script-other"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rioforms/submit",
+  "version": "0.1.0",
+  "title": "Submit",
+  "category": "rio_fields",
+  "parent": [
+    "rioforms/container"
+  ],
+  "description": "Submit Button",
+  "supports": {
+    "html": false,
+    "customClassName": false,
+    "multiple": false
+  },
+  "textdomain": "rioforms",
+  "script": [
+    "rio-element-editor-script-other"
+  ]
+}

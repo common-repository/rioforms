@@ -1,0 +1,11 @@
+body .rio-form {
+	input[type=text],
+	input[type=url],
+	input[type=email],
+	input[type=tel],
+	input[type=number] {
+		display: block;
+		width: 100%;
+		background-color: transparent;
+	}
+}

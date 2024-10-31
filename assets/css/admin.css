@@ -1,0 +1,49 @@
+#rio-form-preview-button {
+	background-color: #0F172A;
+	color: #FFFFFF;
+	margin-right: 8px;
+}
+#rio-form-preview-button:hover,
+#rio-form-preview-button:focus {
+	background-color: #475569;
+	outline: none !important;
+	box-shadow: none !important;
+}
+.form_shortcode .rioform-shortcode-wrap {
+	display: flex;
+	gap: 3px;
+}
+.form_shortcode .rio-form-copy-shortcode {
+	background: transparent;
+	border: none;
+	color: #a7aaad;
+	padding: 0px;
+	cursor: pointer;
+}
+.form_shortcode .rio-form-copy-shortcode span {
+	pointer-events: none;
+}
+.form_shortcode .rio-form-copy-shortcode .copied {
+	display: none;
+}
+.form_shortcode .rio-form-copy-shortcode.shortcode-copied .copy {
+	display: none;
+}
+.form_shortcode .rio-form-copy-shortcode.shortcode-copied .copied {
+	display: block;
+}
+.form_shortcode .rio-form-shortcode {
+	background-color: transparent;
+	border: none;
+	width: fit-content;
+	pointer-events: none;
+}
+.form_shortcode .rio-form-shortcode:focus-visible {
+	outline: none !important;
+}
+.form_shortcode .rio-form-shortcode::selection {
+	background-color: transparent;
+}
+
+/* Hide Default Tab Options (Blocks + Patterns + Media) with cross button from Sidebar and Popup Inserter Components (>=6.6)*/
+body.post-type-rioform .block-editor-inserter__tablist-and-close-button{display:none;} 
